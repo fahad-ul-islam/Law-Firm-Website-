@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Articles - Elixirs Law Firm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .article-card {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .article-img {
+            flex: 0 0 250px;
+            height: 180px;
+            background-color: #eee;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+        }
+
+        .article-content {
+            flex: 1;
+        }
+
+        .article-meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .article-content h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 15px;
+            color: var(--accent-color);
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .read-more:hover {
+            color: var(--accent-hover);
+        }
+
+        @media (max-width: 768px) {
+            .article-card {
+                flex-direction: column;
+            }
+
+            .article-img {
+                width: 100%;
+                height: 200px;
+                flex: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Elixirs Law Firm</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="expertise.html">Expertise</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="articles.html" class="active">Legal Articles</a></li>
+                    <li><a href="updates.html">Updates</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div style="height: 80px;"></div>
+
+    <section class="page-header parallax" style="background-image: url('assets/images/books.jpg');">
+        <div class="container">
+            <h1 class="section-title" style="margin-bottom: 0; color: #fff;">Legal Articles</h1>
+        </div>
+    </section>
+
+    <section class="articles-list" style="padding: 80px 0;">
+        <div class="container" style="max-width: 900px;">
+
+            <!-- Article 1 -->
+            <article class="article-card fade-in">
+                <div class="article-img">
+                    <img src="assets/images/building.jpg" alt="Article Image"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">Feb 10, 2026 | Constitutional Law</div>
+                    <h2>The Evolution of Judicial Review in Pakistan</h2>
+                    <p>An in-depth analysis of recent Supreme Court judgments regarding Art. 199 and the scope of
+                        judicial review in administrative actions.</p>
+                    <a href="#" class="read-more">Read Full Article &rarr;</a>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-card fade-in">
+                <div class="article-img">
+                    <img src="assets/images/team-meeting.jpg" alt="Article Image"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">Jan 25, 2026 | Corporate Law</div>
+                    <h2>Understanding Mergers & Acquisitions: A Regulatory Framework</h2>
+                    <p>Key considerations for companies undergoing M&A in the current economic landscape of Pakistan.
+                    </p>
+                    <a href="#" class="read-more">Read Full Article &rarr;</a>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="article-card fade-in">
+                <div class="article-img">
+                    <img src="assets/images/gavel.jpg" alt="Article Image"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">Jan 10, 2026 | Criminal Law</div>
+                    <h2>Rights of the Accused: Pre-Arrest Bail Jurisprudence</h2>
+                    <p>Exploring the conditions and legal precedents for granting pre-arrest bail in non-bailable
+                        offenses.</p>
+                    <a href="#" class="read-more">Read Full Article &rarr;</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4 style="font-family: var(--font-heading); font-size: 1.5rem;">Elixirs Law Firm</h4>
+                    <p style="color: #aaa; font-size: 0.9rem; margin-top: 15px;">Advocacy with Integrity, Precision, and
+                        Personal Accountability.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="expertise.html">Expertise</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- ... other cols ... -->
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul style="color: #aaa; font-size: 0.9rem;">
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> Office Address Here</li>
+                        <li><i class="fas fa-phone" style="margin-right: 10px;"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope" style="margin-right: 10px;"></i> info@elixirslaw.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Elixirs Law Firm. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
