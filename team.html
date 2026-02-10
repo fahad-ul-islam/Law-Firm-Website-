@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Elixirs Law Firm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .team-card {
+            background: #fff;
+            border: 1px solid #eee;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .team-card:hover {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+
+        .team-img {
+            width: 100%;
+            height: 250px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+        }
+
+        .team-info {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .team-info h3 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: var(--text-color);
+        }
+
+        .team-info p.role {
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .team-info p.practice {
+            font-size: 0.85rem;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Elixirs Law Firm</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="expertise.html">Expertise</a></li>
+                    <li><a href="team.html" class="active">Team</a></li>
+                    <li><a href="articles.html">Legal Articles</a></li>
+                    <li><a href="updates.html">Updates</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div style="height: 80px;"></div>
+
+    <section class="page-header parallax" style="background-image: url('assets/images/team-meeting.jpg');">
+        <div class="container">
+            <h1 class="section-title" style="margin-bottom: 0; color: #fff;">Our Team</h1>
+        </div>
+    </section>
+
+    <!-- Head of Firm -->
+    <section class="head-of-firm" style="padding: 80px 0;">
+        <div class="container">
+            <div style="display: flex; gap: 40px; align-items: center; max-width: 900px; margin: 0 auto;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="assets/images/about.jpg" alt="Head of Firm"
+                        style="width: 100%; height: 350px; object-fit: cover;">
+                </div>
+                <div style="flex: 1.5;">
+                    <h2 style="font-size: 2rem; margin-bottom: 10px;">Mr. Malik Muhammad Asif Nawaz</h2>
+                    <p style="color: var(--accent-color); font-weight: 600; margin-bottom: 20px;">Head of Firm /
+                        Advocate Supreme Court</p>
+                    <p style="margin-bottom: 15px;">A distinguished legal professional and the youngest lawyer of the
+                        Supreme Court of Pakistan (enrolled 2024). Known for his incisive cross-examination and
+                        strategic litigation.</p>
+                    <p>He personally reviews every case to ensure the highest standard of representation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <hr style="border: 0; border-top: 1px solid #eee;">
+    </div>
+
+    <!-- Associates -->
+    <section class="associates" style="padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title" style="font-size: 2rem;">Legal Associates</h2>
+            <div class="team-grid">
+
+                <!-- Associate 1 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Ahmed Khan</h3>
+                        <p class="role">Senior Associate</p>
+                        <p class="practice">Criminal Law, Constitutional Law</p>
+                    </div>
+                </div>
+
+                <!-- Associate 2 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Sarah Ali</h3>
+                        <p class="role">Senior Associate</p>
+                        <p class="practice">Corporate Law, Banking</p>
+                    </div>
+                </div>
+
+                <!-- Associate 3 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Usman Tariq</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Civil Litigation, Family Law</p>
+                    </div>
+                </div>
+
+                <!-- Associate 4 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Fatima Zara</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Intellectual Property, IT Law</p>
+                    </div>
+                </div>
+
+                <!-- Associate 5 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Bilal Ahmed</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Taxation, Commercial Disputes</p>
+                    </div>
+                </div>
+
+                <!-- Associate 6 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Zainab Bibi</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Family Law, Guardian Matters</p>
+                    </div>
+                </div>
+
+                <!-- Associate 7 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Omer Farooq</h3>
+                        <p class="role">Junior Associate</p>
+                        <p class="practice">Service Law, Labour</p>
+                    </div>
+                </div>
+
+                <!-- Associate 8 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Hina Shah</h3>
+                        <p class="role">Junior Associate</p>
+                        <p class="practice">Consumer Protection, Drafting</p>
+                    </div>
+                </div>
+
+                <!-- Associate 9 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Raza Mahmood</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Real Estate, Civil Law</p>
+                    </div>
+                </div>
+
+                <!-- Associate 10 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Sana Mir</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Environmental Law, Compliance</p>
+                    </div>
+                </div>
+
+                <!-- Associate 11 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Kamran Akmal</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Arbitration, ADR</p>
+                    </div>
+                </div>
+
+                <!-- Associate 12 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Noreen Gul</h3>
+                        <p class="role">Junior Associate</p>
+                        <p class="practice">Election Law, Research</p>
+                    </div>
+                </div>
+
+                <!-- Associate 13 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Hassan Raza</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Criminal Appeals, Trial</p>
+                    </div>
+                </div>
+
+                <!-- Associate 14 -->
+                <div class="team-card fade-in">
+                    <div class="team-img"><img src="assets/images/associate.jpg" alt="Associate"
+                            style="width: 100%; height: 100%; object-fit: cover;"></div>
+                    <div class="team-info">
+                        <h3>Mariam Khan</h3>
+                        <p class="role">Associate</p>
+                        <p class="practice">Corporate Governance, Mergers</p>
+                    </div>
+                </div>
+
+                <!-- Associate 15 -->
+                <div class="team-card fade-in">
+                    <div class="team-img">[Photo]</div>
+                    <div class="team-info">
+                        <h3>Ali Zafar</h3>
+                        <p class="role">Travel Associate</p>
+                        <p class="practice">High Court Representation</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as Home) -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4 style="font-family: var(--font-heading); font-size: 1.5rem;">Elixirs Law Firm</h4>
+                    <p style="color: #aaa; font-size: 0.9rem; margin-top: 15px;">Advocacy with Integrity, Precision, and
+                        Personal Accountability.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="expertise.html">Expertise</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li><a href="expertise.html">Criminal Law</a></li>
+                        <li><a href="expertise.html">Civil Law</a></li>
+                        <li><a href="expertise.html">Constitutional Law</a></li>
+                        <li><a href="expertise.html">Corporate Law</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul style="color: #aaa; font-size: 0.9rem;">
+                        <li><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> Office Address Here</li>
+                        <li><i class="fas fa-phone" style="margin-right: 10px;"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope" style="margin-right: 10px;"></i> info@elixirslaw.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Elixirs Law Firm. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
